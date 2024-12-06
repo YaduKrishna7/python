@@ -1,0 +1,12 @@
+fruit={"apple","banana","cherry"}
+print(fruit)
+fruit.add("orange")
+print(fruit)
+fruit.clear()
+print(fruit)
+fruit={"apple","banana","cherry"}
+x=fruit.copy()
+print(x)
+y={"banana","orange","cherry"}
+z=x.difference(y)
+print(z)
